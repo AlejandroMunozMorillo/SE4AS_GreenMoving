@@ -5,3 +5,14 @@ src/nodered/data/*.backup
 src/nodered/data/*.log
 src/nodered/data/.sessions.json
 src/nodered/data/flows_cred.json
+# Grafana runtime data (DO NOT COMMIT)
+src/grafana/grafana.db
+src/grafana/plugins/
+src/grafana/data/
+src/grafana/log/
+
+# Node-RED runtime (si existe)
+node-red-data/node_modules/
+**/__pycache__/
+**/*.pyc
+
